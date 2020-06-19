@@ -13,11 +13,32 @@
     <div class="container">
       <form id="addresses">
         <div class="form-group">
-          <label for=
-          <input type="text" name="contactName" value>
-          
+          <label for="contactFName">Contact First Name:</label>
+          <input type="text" id ="contactFName" name="contactFName">
+          <label for="contactLName">Contact Last Name:</label>
+          <input type="text" id ="contactLName" name="contactLName">
+          <label for="phoneNumber">Contact Phone Number:</label>
+          <input type="text" id ="phoneNumber" name="phoneNumber">
+          <label for="contact-address">Contact Address</label>
+          <input type="text" id="contact-address" name="contact-address">
+          <label for="contact-email">Contact Email: </label>
+          <input type="text" id= "contact-email" name="contact-email">
         </div>
+        <button type="submit">Add Contact</button>
       </form>
+      <h2>These are our friendly contacts of friendship and love and peace and trust in the world. No one can ever hurt us!</h2>
+      <ul id="contacts">
+      </ul>
+      <div id="show-contact">
+        <P>First name: <span class="first-name"></span></P>
+        <P>Last name: <span class="last-name"></span></P>
+        <P>Phone Number: <span class="phone-number"></span></P>
+        <P>Address: <span class="contact-address"></span></P>
+        <p>Email: <span class="contact-email"></span></p>
+        <div id="buttons">
+
+        </div>
+      </div>
     </div>
   </body>
 </html>
